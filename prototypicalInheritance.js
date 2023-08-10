@@ -29,3 +29,23 @@
 // Object.prototype.__proto__ = obj1.__proto__
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto
 
+
+
+let obj = {
+    a:10,
+    b:20,
+}
+
+let obj1={
+    a:12,
+    d:function(){
+        // let a=100;
+        // here this -> a
+        console.log(a);
+        // closures ()
+    }
+}
+
+obj.__proto__ = obj1;
+
+obj.d();
