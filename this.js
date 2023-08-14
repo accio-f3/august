@@ -197,3 +197,8 @@
 // console.log(user.greet());
 
 // console.log(user.greet2());
+
+
+function abc(){
+    
+}

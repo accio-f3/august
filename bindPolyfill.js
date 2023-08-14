@@ -69,3 +69,28 @@ console.log(obj);
 // function newAbc(...nonFixedArguments){
 //     return abc(...nonFixedArguments);
 // }
+
+
+
+// old Fn expects -> arg1, arg2, arg3
+// syntax of bind
+// case 1 -> if you don't want to fix arguments
+// const newBindedFn = oldFn.bind(obj);
+// newBindedFn(arg1,arg2,arg3);
+
+// you can fix arguments from left most arg to right most right
+// (vv important order)
+
+// case 2 -> if you want to fix some arguments
+// const newBindedFn = oldFn.bind(obj,arg1);
+// newBindedFn(arg2,arg3);
+
+// case 3 -> if you want to fix some arguments #2
+// const newBindedFn = oldFn.bind(obj,arg1,arg2);
+// newBindedFn(arg3);
+
+// case 4 -> if you want to fix all the arguments #3
+// const newBindedFn = oldFn.bind(obj,arg1,arg2,arg3);
+// newBindedFn();
+
+// 7:45 -> 8:10 revision
