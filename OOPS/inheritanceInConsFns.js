@@ -53,4 +53,5 @@ console.log(bankAccount2);
 // for inherting methods
 // CreateCurrentBankAccount.prototype.__proto__ = CreateBankAccount.prototype;
 // for inherting properties
-// CreateBankAccount.call(this,customerName,balance,branch);
+// CreateBankAccount.call(this,customerName,balance,branch); -> (constructor linking)
+// (constructor linking) is the keyword that you need to remember
