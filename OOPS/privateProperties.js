@@ -64,3 +64,8 @@ console.log(bankAccount1.accountBalance); // checking balance in your bank app
 
 bankAccount1.name='prikshit';
 console.log(bankAccount1);
+
+// https://www.geeksforgeeks.org/polymorphism-in-javascript/
+// https://www.geeksforgeeks.org/encapsulation-in-javascript/
+// https://www.w3schools.com/js/js_class_inheritance.asp
+// 
